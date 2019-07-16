@@ -1,0 +1,138 @@
+\section{Experience - Detailed}
+
+% define \hc{} command to print a colon without a leading space
+% https://tex.stackexchange.com/a/155017
+\edef\hc{\string:}
+
+% IPsoft, Automation Manager, Europe
+\cventry % chktex 1
+  {\mbox{November 2018 -} \mbox{Present}}
+  {Automation Team Manager, Europe}
+  {IPsoft}{London}{}
+  { 
+    Manager of the Automation team in Europe, responsible for the 
+    development \& delivery of automations on the IPsoft IPcenter and 1Desk platforms.\\~\\
+    Led the project assigned by European CEO to containerise (Docker) our IPcenter 
+    IT service management platform product using Kubernetes (Helm) within a 2-month timeframe. 
+    The objectives achieved were to focus on the automation and related services, 
+    producing a lightweight, rapidly deployable automation engine. 
+    This product could be provisioned in AWS within minutes, including any client 
+    customisation and pre-built automations. 
+    Also included was an integration with Elastic Search to provide real-time 
+    reporting of automation executions via Kibana dashboards.\\~\\
+    Proposed and implemented the automation standardisation program to ensure all 
+    automations conformed to the same documented development and testing standards. 
+    This included the use of Python Sphinx / reStructuredText as well as the development 
+    of automated QA reporting for automation engineers. 
+    This has resulted in automations that are more easily portable between instances, 
+    as well as ensuring that engineers can support multiple clients effectively (without retraining).\\ 
+  }
+% IPsoft, Automation Manager, United Kingdom
+\cventry % chktex 1
+  {\mbox{November 2016 -} \mbox{November 2018}}
+  {Automation Team Lead, United Kingdom}
+  {IPsoft}{London}{}
+  {
+    Leading the automation team in the UK primarily working with our new client (a leading UK bank) to 
+    configure the IPcenter AaaS Instance to their needs. This included developing custom 
+    automations to execute on and remediate 10K+ Windows events from their monitoring platforms.\\~\\ 
+    Also, I designed and implemented integrations with client CMDB data, password stores 
+    and incident/change management (ServiceNow), using SQL and RESTful APIs. Since 
+    implementation, the engineer time saved (as calculated by the client) has risen to approximately 
+    10K hours per month.\\~\\
+  }
+
+% IPsoft, Senior Automation Engineer
+\cventry % chktex 1
+  {\mbox{June 2016 -} \mbox{November 2016}}
+  {Senior Automation Engineer}
+  {IPsoft}{London}{}
+  {
+    Client facing role writing requirements documents, then developing high impact automations. 
+    Development is based on client requests as well as proactive suggestions based on experience 
+    and analysis of event data using Jupyter.  All tasks were managed on JIRA sprint boards utilising 
+    Bitbucket integration for git source control.\\~\\
+    Automations primarily developed in JavaScript (backend) and Powershell or Bash (client-side). 
+    Where needed Python and Perl scripts were used to keep in line with client development frameworks.\\~\\
+    Key automations:\\
+    \begin{itemize}
+      \item SCOM agent reporting: Query the SCOM APIs for agents in a downed state, on a schedule, 
+            then rasing standard change requests via client systems, before restarting services on 
+            the remote server. If required the agent would be upgraded. This would be followed up 
+            with an HTML e-mail report to the product and server owners.\\ 
+      \item VM provision Web Form: An automation that would generate a web form presenting options 
+            to provision a VMware VM via PowerCli. Post-build scripts were deployed to VM to install 
+            software requirements. This was written using JavaScript, HTML/CSS, PowerShell and Bash.\\
+      \item Pre-application deployment: Multiple automations to stop application services across 
+            multiple servers, before backing up config files (and databases), then calling external 
+            deployments tools such as Jenkins. Finally restoring all services back to a running 
+            state and validating their status.\\
+    \end{itemize}
+    Wrote and hosted the automation training courses for internal and client staff. This included 
+    training with the IPcenter platform as well as an introduction to JavaScript, PowerShell and Bash.\\
+  }
+
+  \pagebreak
+
+% IPsoft, Automation Engineer
+\cventry % chktex 1
+  {\mbox{May 2015 -} \mbox{June 2016}}
+  {Automation Engineer}
+  {IPsoft}{London}{}
+  {
+    Developing automations to trigger on events generated from alerts monitored by the IPcenter platform. 
+    The automations developed were for Windows OS and application events.\\~\\
+    Key automations:\\
+    \begin{itemize}
+      \item Service restarts: Restarting of failed services including analysis of system events and logs.\\
+      \item Disk space: Analysis of local and remote disks, followed by file/folder deletion based on Regular Expression whitelist.\\
+      \item Host down: Review of hosts not reporting to monitoring, in the case of virtual machine this 
+            would include connecting to vCenter to perform additional check and restart of VM if required.\\
+    \end{itemize}
+    This development work was performed across multiple IPsoft clients, with the primary client requiring SC clearance.\\ 
+  }
+
+% Star Financial Systems, DevOps Engineer
+\cventry % chktex 1
+  {\mbox{May 2013 -} \mbox{May 2015}}
+  {Development \& Operations Engineer}
+  {Star Financial Systems}{London}{}
+  {
+    Build and maintenance of the VMware hosted QA environments, as well as the datacenter, 
+    hosted production servers. Provisioning of the QA builds was achieved using PowerShell - PowerCli 
+    on Windows Server 2008R2 with TeamCity for application build/unit testing and OctopusDeploy 
+    for application deployment (and MSSQL backups).\\~\\
+    The use of Octopus Deploy along with PowerShell scripting helped to reduce the deployment time 
+    to production from more than 6-hours to 30-minutes (30+ services distributed over 5 or more Windows hosts).\\~\\
+    The use of PowerCli allowed for on-demand provisioning of standardized testing host for development and QA teams. 
+    This helped to ensure that all client production environments were closely replicated in QA/dev builds.\\~\\
+    All tools were integrated with Slack APIs to ensure real-time notifications for all teams.
+    Including alert notifications from Nagios monitoring for production client environments.\\
+  }
+
+% GroupM, Senior Second Line Support Engineer
+\cventry % chktex 1
+  {\mbox{August 2012 -} \mbox{May 2013}}
+  {Senior \nth{2} Line Support Engineer}
+  {GroupM}{London}{Advertising media}
+  {
+    Project work including the provisioning of around 400-laptops using Symantec Ghost, 
+    then installation of all required user and support software using LANDesk. 
+    All hardware/software was deployed successfully within a tight delivery window.\\~\\
+    Provided IT support for C-level staff using Windows \& Mac OS X operating systems. 
+    This also included providing technical support for off-site client presentations by 
+    senior management.\\
+  }
+
+% GroupM, Second Line Support Engineer
+\cventry % chktex 1
+  {\mbox{August 2009 -} \mbox{August 2012}}
+  {\nth{2} Line Support Engineer}
+  {GroupM}{London}{}
+  {
+    Providing second line support to GroupM (and sub-company) staff for all escalated desktop 
+    support incidents. This included hardware and Windows OS support, as well as troubleshooting 
+    for in house and enterprise media booking applications.\\
+  }
+
+\closesection{}

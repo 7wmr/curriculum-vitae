@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CURRICULUM VITAE %%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%
+%%% THEME %%%
+%%%%%%%%%%%%%
+
+% The document class
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% The class's Theme
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% UTF-8 Always!!
+\usepackage[utf8x]{inputenc}
+
+% Use english
+\usepackage[english]{babel}
+
+% Write 1st, 2nd, 3rd etc
+\usepackage[super]{nth}
+
+% Set the scale
+\usepackage[scale=0.9]{geometry}
+\setlength{\hintscolumnwidth}{3cm} % Bigger date columns
+\recomputelengths{}
+
+% Include the import package
+\usepackage{import}
+
+
+%%%%%%%%%%%%%%%%
+%%% DOCUMENT %%%
+%%%%%%%%%%%%%%%%
+
+% Include the personal information
+\input{sections/info}
+
+% Begin the document
+\begin{document}
+
+% Make the title
+\makecvtitle{}
+
+% Move the content 3ems top side
+% This allows us to insert more content in the page
+\vspace{-3em}
+
+\input{sections/profile}
+\input{sections/experience}
+
+% Footer
+\vfill\hfill\footnotesize \input{sections/footer}
+\pagebreak 
+
+\input{sections/computer_skills}
+\input{sections/education}
+\input{sections/interests}
+
+% Footer
+\vfill\hfill\footnotesize \input{sections/footer}
+\pagebreak
+
+% Detailed experience
+\input{sections/experience_detailed}
+
+% Footer
+\vfill\hfill\footnotesize \input{sections/footer}
+
+
+% The document ends here
+\end{document}
