@@ -7,7 +7,12 @@
   {Principal Consultant}
   {Contino}{London}{(Retail Banking Client)}
   { 
-    ...
+    \textcolor{gray}{\textbf{Cloud Datacenter - Compute}}\\ 
+    tbc.\\\\ 
+    \textcolor{gray}{\textbf{Cloud Datacenter - Storage}}\\ 
+    tbc.\\\\ 
+    \textcolor{gray}{\textbf{Data Storage Assessment}}\\ 
+    tbc.\\
   }
 
 % Contino, Senior Consultant
@@ -16,11 +21,19 @@
   {Senior Consultant}
   {Contino}{London}{(Retail Banking Client)}
   {
+    \textcolor{gray}{\textbf{Knowledge Transfer}}\\
+    In addition training was provided
+    to the client SRE team on platform maintenance and troubleshooting.\\\\
+    \textcolor{gray}{\textbf{Cloud Control Framework}}\\
+    Reviewed each of the controls in the clients cloud control framework, 
+    agree on the evidence required for each of the controls. 
+    Evidence was then generated to show that the controls were met for the 
+    Cloud Native platform.\\\\
+    \textcolor{gray}{\textbf{Cloud Native Platform}}\\
     Supported the engineering of a Cloud Native platform hosted in Azure. 
     This plafrom provided the client a plaform to develop Cloud Native applications
     hosted in Azure Kubernetes Clusters. A key focus on security required the implementation
-    of Open Policy Agent, AquaSec and Istio Service Mesh. In addition training was provided
-    to the client SRE team on platform maintenance and troubleshooting.
+    of Open Policy Agent, AquaSec and Istio Service Mesh.\\
   }
 
 % IPsoft, Automation Manager, Europe
@@ -75,20 +88,21 @@
     Bitbucket integration for git source control.\\~\\
     Automations primarily developed in JavaScript (backend) and Powershell, or Bash (client-side). 
     Where needed Python and Perl scripts were used to keep in line with client development frameworks.\\~\\
-    Key automations:\\
-    \begin{itemize}
-      \item SCOM agent reporting: Query the SCOM APIs for agents in a downed state, on a schedule, 
-            then rasing standard change requests via client systems, before restarting services on 
-            the remote server. If required the agent would be upgraded. This would be followed up 
-            with an HTML e-mail report to the product and server owners.\\ 
-      \item VM provision Web Form: An automation that would generate a web form presenting options 
-            to provision a VMware VM via PowerCli. Post-build scripts were deployed to VM to install 
-            software requirements. This was written using JavaScript, HTML/CSS, PowerShell and Bash.\\
-      \item Pre-application deployment: Multiple automations to stop application services across 
-            multiple servers, before backing up config files (and databases), then calling external 
-            deployments tools such as Jenkins. Finally restoring all services back to a running 
-            state and validating their status.\\
-    \end{itemize}
+    Key automations:\\\\
+    \textcolor{gray}{\textbf{SCOM agent reporting}}\\
+    Query the SCOM APIs for agents in a downed state, on a schedule, 
+    then rasing standard change requests via client systems, before restarting services on 
+    the remote server. If required the agent would be upgraded. This would be followed up 
+    with an HTML e-mail report to the product and server owners.\\\\
+    \textcolor{gray}{\textbf{VM provision Web Form}}\\
+    An automation that would generate a web form presenting options 
+    to provision a VMware VM via PowerCli. Post-build scripts were deployed to VM to install 
+    software requirements. This was written using JavaScript, HTML/CSS, PowerShell and Bash.\\\\
+    \textcolor{gray}{\textbf{Pre-application deployment}}\\
+    Multiple automations to stop application services across 
+    multiple servers, before backing up config files (and databases), then calling external 
+    deployments tools such as Jenkins. Finally restoring all services back to a running 
+    state and validating their status.\\\\
     Wrote and hosted the automation training courses for internal and client staff. This included 
     training with the IPcenter platform as well as an introduction to JavaScript, PowerShell and Bash.\\
   }
@@ -99,23 +113,28 @@
   {Automation Engineer}
   {IPsoft}{London}{(Government Client}
   {
-    Developing automations to trigger on events generated from alerts monitored by the IPcenter platform. 
+    Developing automations to trigger on events generated from alerts monitored 
+    by the IPcenter platform. 
     The automations developed were for Windows OS and application events.\\~\\
-    Key automations:\\
-    \begin{itemize}
-      \item Service restarts: Restarting of failed services including analysis of system events and logs.\\
-      \item Disk space: Analysis of local and remote disks, followed by file/folder deletion based on Regular Expression whitelist.\\
-      \item Host down: Review of hosts not reporting to monitoring, in the case of virtual machine this 
-            would include connecting to vCenter to perform additional check and restart of VM if required.\\
-    \end{itemize}
-    This development work was performed across multiple IPsoft clients, with the primary client requiring SC clearance.\\ 
+    Key automations:\\\\
+    \textcolor{gray}{\textbf{Service restarts}}\\
+    Restarting of failed services including analysis of system events and logs.\\\\
+    \textcolor{gray}{\textbf{Disk space}}\\
+    Analysis of local and remote disks, followed by file/folder deletion based on Regular 
+    Expression whitelist.\\\\
+    \textcolor{gray}{\textbf{Host down}}\\
+    Review of hosts not reporting to monitoring, in the case of virtual machine this 
+    would include connecting to vCenter to perform additional check and restart 
+    of VM if required.\\\\
+    This development work was performed across multiple IPsoft clients, 
+    with the primary client requiring SC clearance.\\ 
   }
 
 % Star Financial Systems, DevOps Engineer
 \cventry % chktex 1
   {\mbox{May 2013 -} \mbox{May 2015}}
   {DevOps Engineer}
-  {Star Financial Systems}{London}{}
+  {Star Financial Systems}{London}{(Internal)}
   {
     Build and maintenance of the VMware hosted QA environments, as well as the datacenter, 
     hosted production servers. Provisioning of the QA builds was achieved using PowerShell - PowerCli 
