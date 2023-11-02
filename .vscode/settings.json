@@ -1,3 +1,4 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}/cloud-first/cne-docs/source/conf.py"
+    "restructuredtext.confPath": "${workspaceFolder}/cloud-first/cne-docs/source/conf.py",
+    "esbonio.sphinx.confDir": "${workspaceFolder}/cloud-first/cne-docs/source/conf.py"
 }
