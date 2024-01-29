@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1706536023 "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.tex" "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.pdf" "cv" 1706536024
+["pdflatex"] 1706536023 "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.tex" "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.pdf" "cv" 1706536056
   "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.aux" 1706536024 1234 2e47c05b8a1f2e4307e72158f6574a2c ""
   "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.tex" 1698831792 1153 a1ee90f67a9d98973e70ee56a586f0ca ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
@@ -209,11 +209,11 @@
   "sections/interests.tex" 1698831792 222 65f7132061e7bc575ecc8e2c4c3e84f5 ""
   "sections/past_experience.tex" 1698831792 906 94fc5b0d1097a205f81b2d18605d925f ""
   "sections/profile.tex" 1706534809 420 6105c3fa9ecd5ec5b187b9b736c0bfa8 ""
-  "sections/recent_experience.tex" 1706536022 10404 91e056162410516d0a8e3174fa96daed ""
+  "sections/recent_experience.tex" 1706536056 10404 91e056162410516d0a8e3174fa96daed ""
   (generated)
-  "cv.out"
-  "cv.aux"
+  "cv.log"
   "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.pdf"
   "/Users/rneave/Documents/GitHub/curriculum-vitae/cv.log"
-  "cv.log"
   "cv.pdf"
+  "cv.out"
+  "cv.aux"
