@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.10)  29 JAN 2024 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.10)  20 FEB 2024 10:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,7 +908,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  117i,13n,116p,472b,835s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on /Users/rneave/Documents/GitHub/curriculum-vitae/cv.pdf (4 pages, 205852 bytes).
+Output written on /Users/rneave/Documents/GitHub/curriculum-vitae/cv.pdf (4 pages, 206168 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
